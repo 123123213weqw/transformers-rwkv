@@ -522,6 +522,7 @@ CONFIG_MAPPING_NAMES = OrderedDict(
         ("qwen3", "Qwen3Config"),
         ("qwen3_5", "Qwen3_5Config"),
         ("qwen3_5_moe", "Qwen3_5MoeConfig"),
+        ("qwen3_5_moe_rwkv7", "Qwen3_5MoeRwkv7Config"),
         ("qwen3_5_moe_text", "Qwen3_5MoeTextConfig"),
         ("qwen3_5_moe_vision", "Qwen3_5MoeVisionConfig"),
         ("qwen3_5_text", "Qwen3_5TextConfig"),
