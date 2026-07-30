@@ -423,6 +423,7 @@ MODEL_MAPPING_NAMES = OrderedDict(
         ("qwen3", "Qwen3Model"),
         ("qwen3_5", "Qwen3_5Model"),
         ("qwen3_5_moe", "Qwen3_5MoeModel"),
+        ("qwen3_5_moe_rwkv7", "Qwen3_5MoeRwkv7Model"),
         ("qwen3_5_moe_text", "Qwen3_5MoeTextModel"),
         ("qwen3_5_moe_vision", "Qwen3_5MoeVisionModel"),
         ("qwen3_5_text", "Qwen3_5TextModel"),
@@ -816,6 +817,7 @@ MODEL_FOR_CAUSAL_LM_MAPPING_NAMES = OrderedDict(
         ("qwen3", "Qwen3ForCausalLM"),
         ("qwen3_5", "Qwen3_5ForCausalLM"),  # VLM compatibility
         ("qwen3_5_moe", "Qwen3_5MoeForCausalLM"),  # VLM compatibility
+        ("qwen3_5_moe_rwkv7", "Qwen3_5MoeRwkv7ForCausalLM"),
         ("qwen3_5_moe_text", "Qwen3_5MoeForCausalLM"),
         ("qwen3_5_text", "Qwen3_5ForCausalLM"),
         ("qwen3_moe", "Qwen3MoeForCausalLM"),
